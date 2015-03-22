@@ -52,70 +52,69 @@ Description : Average of each measurement for each activity and each subject.
 
 Class : number 
 
-
-3	tBodyAcc.mean...X				
-4	tBodyAcc.mean...Y				
-5	tBodyAcc.mean...Z				
-6	tBodyAcc.std...X				
-7	tBodyAcc.std...Y				
-8	tBodyAcc.std...Z				
-9	tGravityAcc.mean...X				
-10	tGravityAcc.mean...Y				
-11	tGravityAcc.mean...Z				
-12	tGravityAcc.std...X				
-13	tGravityAcc.std...Y				
-14	tGravityAcc.std...Z				
-15	tBodyAccJerk.mean...X				
-16	tBodyAccJerk.mean...Y				
-17	tBodyAccJerk.mean...Z				
-18	tBodyAccJerk.std...X				
-19	tBodyAccJerk.std...Y				
-20	tBodyAccJerk.std...Z				
-21	tBodyGyro.mean...X				
-22	tBodyGyro.mean...Y				
-23	tBodyGyro.mean...Z				
-24	tBodyGyro.std...X				
-25	tBodyGyro.std...Y				
-26	tBodyGyro.std...Z				
-27	tBodyGyroJerk.mean...X				
-28	tBodyGyroJerk.mean...Y				
-29	tBodyGyroJerk.mean...Z				
-30	tBodyGyroJerk.std...X				
-31	tBodyGyroJerk.std...Y				
-32	tBodyGyroJerk.std...Z				
-33	tBodyAccMag.mean..				
-34	tBodyAccMag.std..				
-35	tGravityAccMag.mean..				
-36	tGravityAccMag.std..				
-37	tBodyAccJerkMag.mean..				
-38	tBodyAccJerkMag.std..				
-39	tBodyGyroMag.mean..				
-40	tBodyGyroMag.std..				
-41	tBodyGyroJerkMag.mean..				
-42	tBodyGyroJerkMag.std..				
-43	fBodyAcc.mean...X				
-44	fBodyAcc.mean...Y				
-45	fBodyAcc.mean...Z				
-46	fBodyAcc.std...X				
-47	fBodyAcc.std...Y				
-48	fBodyAcc.std...Z				
-49	fBodyAccJerk.mean...X				
-50	fBodyAccJerk.mean...Y				
-51	fBodyAccJerk.mean...Z				
-52	fBodyAccJerk.std...X				
-53	fBodyAccJerk.std...Y				
-54	fBodyAccJerk.std...Z				
-55	fBodyGyro.mean...X				
-56	fBodyGyro.mean...Y				
-57	fBodyGyro.mean...Z				
-58	fBodyGyro.std...X				
-59	fBodyGyro.std...Y				
-60	fBodyGyro.std...Z				
-61	fBodyAccMag.mean..				
-62	fBodyAccMag.std..				
-63	fBodyBodyAccJerkMag.mean..				
-64	fBodyBodyAccJerkMag.std..				
-65	fBodyBodyGyroMag.mean..				
-66	fBodyBodyGyroMag.std..				
-67	fBodyBodyGyroJerkMag.mean..				
-68	fBodyBodyGyroJerkMag.std..				
+3	Avg of tBodyAcc.mean.X
+4	Avg of tBodyAcc.mean.Y
+5	Avg of tBodyAcc.mean.Z
+6	Avg of tBodyAcc.std.X
+7	Avg of tBodyAcc.std.Y
+8	Avg of tBodyAcc.std.Z
+9	Avg of tGravityAcc.mean.X
+10	Avg of tGravityAcc.mean.Y
+11	Avg of tGravityAcc.mean.Z
+12	Avg of tGravityAcc.std.X
+13	Avg of tGravityAcc.std.Y
+14	Avg of tGravityAcc.std.Z
+15	Avg of tBodyAccJerk.mean.X
+16	Avg of tBodyAccJerk.mean.Y
+17	Avg of tBodyAccJerk.mean.Z
+18	Avg of tBodyAccJerk.std.X
+19	Avg of tBodyAccJerk.std.Y
+20	Avg of tBodyAccJerk.std.Z
+21	Avg of tBodyGyro.mean.X
+22	Avg of tBodyGyro.mean.Y
+23	Avg of tBodyGyro.mean.Z
+24	Avg of tBodyGyro.std.X
+25	Avg of tBodyGyro.std.Y
+26	Avg of tBodyGyro.std.Z
+27	Avg of tBodyGyroJerk.mean.X
+28	Avg of tBodyGyroJerk.mean.Y
+29	Avg of tBodyGyroJerk.mean.Z
+30	Avg of tBodyGyroJerk.std.X
+31	Avg of tBodyGyroJerk.std.Y
+32	Avg of tBodyGyroJerk.std.Z
+33	Avg of tBodyAccMag.mean.
+34	Avg of tBodyAccMag.std.
+35	Avg of tGravityAccMag.mean.
+36	Avg of tGravityAccMag.std.
+37	Avg of tBodyAccJerkMag.mean.
+38	Avg of tBodyAccJerkMag.std.
+39	Avg of tBodyGyroMag.mean.
+40	tAvg of BodyGyroMag.std.
+41	Avg of tBodyGyroJerkMag.mean.
+42	Avg of tBodyGyroJerkMag.std.
+43	Avg of fBodyAcc.mean.X
+44	Avg of fBodyAcc.mean.Y
+45	Avg of fBodyAcc.mean.Z
+46	Avg of fBodyAcc.std.X
+47	Avg of fBodyAcc.std.Y
+48	Avg of fBodyAcc.std.Z
+49	Avg of fBodyAccJerk.mean.X
+50	Avg of fBodyAccJerk.mean.Y
+51	Avg of fBodyAccJerk.mean.Z
+52	Avg of fBodyAccJerk.std.X
+53	Avg of fBodyAccJerk.std.Y
+54	Avg of fBodyAccJerk.std.Z
+55	Avg of fBodyGyro.mean.X
+56	Avg of fBodyGyro.mean.Y
+57	Avg of fBodyGyro.mean.Z
+58	Avg of fBodyGyro.std.X
+59	Avg of fBodyGyro.std.Y
+60	Avg of fBodyGyro.std.Z
+61	Avg of fBodyAccMag.mean.
+62	Avg of fBodyAccMag.std.
+63	Avg of fBodyBodyAccJerkMag.mean.
+64	Avg of fBodyBodyAccJerkMag.std.
+65	Avg of fBodyBodyGyroMag.mean.
+66	Avg of fBodyBodyGyroMag.std.
+67	Avg of fBodyBodyGyroJerkMag.mean.
+68	Avg of fBodyBodyGyroJerkMag.std.
