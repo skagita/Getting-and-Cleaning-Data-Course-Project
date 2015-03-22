@@ -46,10 +46,13 @@ complete_labeled_dataset <- arrange(complete_labeled_dataset,subjectID,activityI
 ## group by 'activityName' and 'subjectID'
 tidydataset <- aggregate(complete_labeled_dataset[c(4:69)],by = complete_labeled_dataset[c("activityName","subjectID")], FUN=mean)
 
+## Label the new averages in the tidy dataset appropriately
+colnames <- names(tidydataset)[3:68]
+colnames <- paste("Avg of",mnames)
+colnames <- gsub('[.]{2,}', '.',mnames)
+names(tidydataset)[3:68] <- colnames
+
 ## Load the tidy dataset into a text file 
 write.table(tidydataset,file="./tidydata.txt",row.name=FALSE)
-
-
-
 
 
